@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 2em;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card:hover{
+    button {
+        background-color: #07C06A;
+    }
+    button:disabled{
+        background: #AAAAAA;
+    }
+}
+
+.border {
+   align-items: start;
+}
+
+.default:hover {
+    background: #07C06A;
+}
+
+.border:hover {
+    border: 1em solid #07C06A;
+}

@@ -1,0 +1,1 @@
+export type HeroIconType = (props: React.ComponentProps<'svg'>) => JSX.Element;

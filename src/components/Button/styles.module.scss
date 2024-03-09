@@ -1,0 +1,52 @@
+.button {
+    border-radius: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+    color: white;
+    padding: 1em 0.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15pt;
+    background-color: #2D3E4F;
+    border: 1px solid #fff;
+
+    .text {
+        flex: 1;
+        text-align: left;
+        padding: 0 1em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.button:disabled {
+    background: #AAAAAA;
+    cursor: not-allowed;
+}
+
+
+.button.icon {
+  outline: none;
+}
+
+.button.default {
+    overflow: hidden;
+    .text {
+        flex: 1 1;
+        text-align: left;
+        padding: 0 1em;
+        white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.button.icon .text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
