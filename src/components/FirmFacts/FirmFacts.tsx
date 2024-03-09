@@ -32,13 +32,13 @@ const FirmFacts = () => {
                     icon={<MagnifyingGlassIcon width={35} />} 
                     variant="icon"/>
             </FirmFactCard>
-            <FirmFactCard className={styles.gridItem}>
+            <FirmFactCard className={styles.gridItem} variant="border">
                 <Button text="This is a two line button that terminates with very very large text" icon={<MagnifyingGlassIcon width={35}/>} variant="icon"/>
             </FirmFactCard>
-            <FirmFactCard className={styles.gridItem}>
+            <FirmFactCard className={styles.gridItem} variant="border">
                 <Button text="This is a two line button that terminates with very very large text" icon={<MagnifyingGlassIcon width={35}/>} variant="icon" disabled/>
             </FirmFactCard>
-            <FirmFactCard className={styles.gridItem}>
+            <FirmFactCard className={styles.gridItem} variant="border">
                 <Button text="This is a two line button that terminates with very very large text" icon={<MagnifyingGlassIcon width={35}/>} variant="icon"/>
             </FirmFactCard>
         </div>
